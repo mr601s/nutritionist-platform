@@ -1,0 +1,52 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #f5f3ec;
+  color: #3a3a3a;
+  margin: 0;
+  padding: 0;
+}
+
+.brand-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background: #e7dbc7;
+  border-bottom: 1px solid #d6cfc5;
+}
+
+.brand-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.brand-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4c7155;
+}
+
+.brand-subtitle {
+  font-size: 1.2rem;
+  color: #7a8b6f;
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #4c7155;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background: #d6cfc5;
+}
